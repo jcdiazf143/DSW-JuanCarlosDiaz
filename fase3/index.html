@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas Básicas de HTML5, Atributos y Valores</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <p>
+        <img src="img/Unad.png" width="150" height="80" alt="Logo Unad">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Web Etiquetas Básicas de HTML5, Atributos y Valores &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="img/presenta.jpg" width="320" height="80" alt="Unad">
+      </p>
+    </h1>
+  </header>
+  <nav>
+    <ul>
+      <li id="item"><a href="index.html">Inicio</a></li>
+      <li id="item"><a href="#">Temas</a>
+        <ul id="desplega">
+          <li><a href="tema1.html">Etiquetas Básicas</a></li>
+          <li><a href="tema2.html">Atributos y Valores</a></li>
+        </ul>
+      </li>
+      <li id="item"><a href="#">Recusos Digitales</a>
+        <ul id="desplega">
+          <li><a href="recurso1.html">Recurso 1</a></li>
+          <li><a href="recurso2.html">Recurso 2</a></li>
+        </ul>
+      </li>
+      <li id="item"><a href="#">Aprendizaje</a>
+        <ul id="desplega">
+          <li><a href="#">Actividad 1</a></li>
+          <li><a href="#">Actividad 2</a></li>
+        </ul>
+      </li>
+      <li id="item"><a href="autor.html">Acerca de (Autor)</a></li>
+    </ul>
+  </nav>
+  <div class="contenedor">
+    <section>
+      <article>
+        <!--  -->
+        <p>
+        <h3>HTML5</h3>
+        El lenguaje HTML, es un lenguaje de marcas o etiquetas. Esto quiere decir que los elementos que conforman la
+        página web se describen mediante palabras especiales que marcan el inicio y el final de los mismo, estas
+        palabras se denominan Etiqueta. En definitiva, en HTML5 se incorporan las siguientes etiquetas semánticas: <br>
+        • &lt;header&gt;… &lt;/header&gt; para definir la cabecera de la página <br>
+        • &lt;footer&gt;… &lt;/footer&gt; para definir el pie de página. Normalmente contiene datos sobre quien ha
+        creado la
+        página, datos del copyright <br>
+        • &lt;nav&gt;… &lt;/nav&gt; permite definir un elemento de navegación de la página web, como el menú principal o
+        menús secundarios. <br>
+        • &lt;section&gt;… &lt;/section> se utilizan para encerrar el código correspondiente a una sección genérica
+        dentro de un documento. <br>
+        • &lt;aside&gt;… &lt;/aside&gt; sirve para delimitar todo aquel contenido que no es directamente contenido
+        principal de esa página en concreto. Puede usarse por tanto para todos aquellos elementos
+        secundarios como bloques publicitarios, enlaces externos, citas, un calendario, etc. <br>
+        • &lt;article&gt;… &lt;/article&gt; se utiliza para definir artículos como noticias, entradas de un
+        blog, es probablemente uno de los más importantes de HTML5, y a que permite indicar cuál
+        es el contenido de una página web <br>
+        <br>
+
+        <div class="parte">
+          <div class="parte1">
+            <img src="img/esquemahtml5.PNG" width="350" height="195" alt="Estructura HTML">
+            <h3>Maquetación Básica con Etiquetas de HTML5</h3>
+          </div>
+          <div class="parte2">
+            <img src="img/logohtlm5css3.jpg" width="350" height="195" alt="Estructura HTML">
+            <h3>Logo de Lenguaje Editores de páginas web</h3>
+          </div>
+        </div>
+        </p>
+      </article>
+      <article>
+        <h3>Etiquetas Básicas de HTML</h3>
+        Definición: Las etiquetas son la estructura básica del HTML. Palabras especiales que marca el comienzo y el
+        final de los elementos que conforman la página Web. Estas etiquetas o tags se componen y contienen otras
+        propiedades, como son los atributos y el contenido. Su estructura, aunque existen algunas excepciones, en
+        general las etiquetas se indican por pares de la siguiente manera: <br>
+        • Etiqueta de apertura: carácter &lt;, seguido del nombre de la etiqueta (sin espacios en blanco) y terminando
+        con el carácter &gt;. <br>
+        • Etiqueta de cierre: carácter &lt;, seguido del carácter /, seguido del nombre de la etiqueta (sin espacios en
+        blanco) y terminando con el carácter &gt;. <br>
+        Así: &lt; nombre_etiqueta &gt; ….&lt; /nombre_etiqueta &gt; <br>
+        <br>
+        Las Básicas son: Formato de Textos, Formato de Párrafos, Creación de Listas (numeradas, no numeradas), Imágenes,
+        Tablas, Creación de Enlaces, Páginas con marcos (Frames), Formularios <br>
+
+      </article>
+      <article>
+        <h3>Atributos y Valores</h3>
+        Los atributos de HTML son palabras especiales utilizadas dentro de la etiqueta de apertura, para controlar el
+        comportamiento del elemento. Los atributos de HTML son un modificador de un tipo de elemento de HTML. <br>
+        <br>
+        Aunque cada una de las etiquetas HTML define sus propios atributos, algunos de los atributos son comunes a
+        muchas o casi todas las etiquetas. De esta forma, es habitual explicar por separado los atributos comunes de las
+        etiquetas para no tener que volver a hacerlo cada vez que se explica una nueva etiqueta. Los atributos comunes
+        se dividen en cuatro grupos según su funcionalidad: <br>
+        <br>
+        Atributos básicos: se pueden utilizar prácticamente en todas las etiquetas HTML. <br>
+        Atributos para internacionalización: los utilizan las páginas que muestran sus contenidos en varios idiomas.
+        <br>
+        Atributos de eventos: sólo se utilizan en las páginas web dinámicas creadas con JavaScript. <br>
+        Atributos de foco: relacionados principalmente con la accesibilidad de los sitios web. <br>
+        <h5>Celaya Luna, A. (2014). Creación de páginas web: HTML 5 (pág. 1 a 60). Recuperado de
+          https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045</h5>
+      </article>
+
+    </section>
+    <aside>
+      <p>
+      <h3>Fanpage UNAD</h3>
+      </p>
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=350&height=980&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+        width="390" height="1000" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </aside>
+  </div>
+  <footer>
+    <h5>
+      <p>Email: jucedi_97@hotmail.com &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email Institucional:
+        jcdiazf@unadvirtual.edu.co &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Skype: JUAN
+        DIAZ FLOREZ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Escuela de Ciencias Básicas, Tecnologia e Ingeniería<br>
+        Abri 08 de 2021</p>
+    </h5>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+header{
+    background-color:goldenrod;
+    padding: 2px;
+}
+nav{
+    background-color:rgb(6, 51, 88);
+    color: darkkhaki;
+    padding: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    color: rgb(231, 228, 185);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav #item{
+    float: left;
+    }
+
+nav #item a{
+    background-color:rgb(6, 51, 88);
+    color: darkkhaki;
+    padding: 10px 35px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+nav #desplega{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+nav #item:hover #desplega{
+    display: block;
+}
+nav #item a:hover{
+background-color: mediumblue;
+color:floralwhite;
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+section{
+    float: left;
+    width: 75%;
+    background-color:rgb(238, 228, 211);
+}
+aside{
+    float: left;
+    width: 25%;
+    background-color:rgb(218, 216, 189) ;
+   
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+footer{
+    background-color: rgb(223, 217, 217);
+    padding: 5px;
+    text-align: justify;
+}
+h1{
+    color: floralwhite;
+    text-align: justify;
+}
+h3{
+    color:rgb(20, 20, 110);
+    text-align:left
+}
+h2{
+    color:rgb(20, 20, 110);
+    text-align:center
+}
+h4{
+    color:rgb(33, 33, 206);
+    text-align:right
+}
+.parte{
+    display: flex;
+    
+}
+.parte1{
+    flex:50%;
+    justify-content: center;
+}
+.parte2{
+    flex: 50%;
+    justify-content: center;
+}
