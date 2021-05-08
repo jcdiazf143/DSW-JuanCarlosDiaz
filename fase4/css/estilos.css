@@ -1,9 +1,6 @@
 header{
     background-color:goldenrod;
     padding: 2px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 nav{
     background-color:rgb(6, 51, 88);
@@ -107,9 +104,18 @@ h4{
 .parte4{
     flex: 80%;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
 }
 .parte5{
     flex: 10%;
+    justify-content: center;
+}
+.parte6{
+    flex: 70%;
+    justify-content: center;
+    padding: 10px;
+}
+.parte5{
+    flex: 30%;
     justify-content: center;
 }
